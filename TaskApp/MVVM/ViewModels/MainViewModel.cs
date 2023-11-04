@@ -115,11 +115,11 @@ namespace TaskApp.MVVM.ViewModels
             {
                 TaskName = "Complete Weather app gif",
                 Completed = false,
-                CategoryId = 3,
+                CategoryId = 2,
             },
             new MyTask
             {
-                TaskName = "Gym",
+                TaskName = "Buy Steak",
                 Completed = false,
                 CategoryId = 3,
             }
