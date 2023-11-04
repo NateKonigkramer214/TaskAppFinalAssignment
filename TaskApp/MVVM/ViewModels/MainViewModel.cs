@@ -119,7 +119,7 @@ namespace TaskApp.MVVM.ViewModels
             },
             new MyTask
             {
-                TaskName = "gym",
+                TaskName = "Gym",
                 Completed = false,
                 CategoryId = 3,
             }

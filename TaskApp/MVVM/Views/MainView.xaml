@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:converters="clr-namespace:TaskApp.Converter"
              x:Class="TaskApp.MVVM.Views.MainView"
+             BackgroundColor="#FAE7C9"
              Title="My Tasks">
 
     <ContentPage.Resources>
@@ -44,7 +45,7 @@
                 </CollectionView>
             </StackLayout>
         </ScrollView>
-        <!-- End of Categories Section -->
+        
 
         <!-- Tasks Section -->
         <Grid Grid.Row="2" RowDefinitions=".2*,.8*">
@@ -74,7 +75,7 @@
                 </CollectionView.ItemTemplate>
             </CollectionView>
         </Grid>
-        <!-- End of Tasks Section -->
+        
 
         <Button Grid.Row="2"
                 Text="ADD"
