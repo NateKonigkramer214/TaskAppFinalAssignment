@@ -66,22 +66,22 @@ namespace TaskApp.MVVM.ViewModels
                 new Category
                 {
                     Id = 1,
-                    CategoryName = "Cleaning",
-                    Color = "#ff0000"
+                    CategoryName = "House Chores",
+                    Color = "#FFC436"
                 },
 
                 new Category
                 {
                     Id = 2,
-                    CategoryName = "Work/Uni",
-                    Color = "#008000"
+                    CategoryName = "Work",
+                    Color = "#0174BE"
                 },
 
                 new Category
                 {
                     Id = 3,
-                    CategoryName = "Groceries",
-                    Color = "#007BFF"
+                    CategoryName = "Shoping",
+                    Color = "#0C356A"
                 },
             };
 
@@ -89,37 +89,37 @@ namespace TaskApp.MVVM.ViewModels
             {
                 new MyTask
             {
-                TaskName = "Dishes",
+                TaskName = "Washing",
                 Completed = false,
                 CategoryId = 1,
             },
             new MyTask
             {
-                TaskName = "Vacuum",
+                TaskName = "Dusting",
                 Completed = false,
                 CategoryId = 1,
             },
             new MyTask
             {
-                TaskName = "Study for exam",
+                TaskName = "Complete patching",
                 Completed = false,
                 CategoryId = 2,
             },
             new MyTask
             {
-                TaskName = "Finish Working on UI",
+                TaskName = "Finsh Tasker App",
                 Completed = false,
                 CategoryId = 2,
             },
             new MyTask
             {
-                TaskName = "Buy Flour",
+                TaskName = "Complete Weather app gif",
                 Completed = false,
                 CategoryId = 3,
             },
             new MyTask
             {
-                TaskName = "Buy Protein Powder",
+                TaskName = "gym",
                 Completed = false,
                 CategoryId = 3,
             }

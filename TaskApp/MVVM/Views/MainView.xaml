@@ -10,7 +10,7 @@
     </ContentPage.Resources>
     
     <Grid Margin="16" RowDefinitions=".1*,.3*,.7*">
-        <Label Text="My Tasks" StyleClass="dark, Header"/>
+        <Label Text="My Tasks" StyleClass="dark, Header" TextColor="Black" FontAttributes="Bold"/>
         
         <Grid Grid.Row="1" RowDefinitions=".2*,.8*">
             <Label StyleClass="White, SubHeader" Text="Categories"/>
