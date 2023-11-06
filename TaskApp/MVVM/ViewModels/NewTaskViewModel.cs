@@ -19,14 +19,14 @@ public class NewTaskViewModel
                 new Category
                 {
                     Id = 1,
-                    CategoryName = "House Chores",
+                    CategoryName = "Finance",
                     Color = "#FFC436"
                 },
 
                 new Category
                 {
                     Id = 2,
-                    CategoryName = "Work",
+                    CategoryName = "Inventory Tracking",
                     Color = "#0174BE"
                 },
 
@@ -39,44 +39,51 @@ public class NewTaskViewModel
         };
 
         Tasks = new ObservableCollection<MyTask>()
-        {
-            new MyTask
             {
-                TaskName = "Washing",
+                new MyTask
+            {
+                TaskName = "Weekly Sales Report",
                 Completed = false,
                 CategoryId = 1,
             },
             new MyTask
             {
-                TaskName = "Dusting",
+                TaskName = "Taking Money to Bank",
                 Completed = false,
                 CategoryId = 1,
             },
             new MyTask
             {
-                TaskName = "Complete patching",
+                TaskName = "Emptying registers",
+                Completed = false,
+                CategoryId = 1,
+            },
+            new MyTask
+            {
+                TaskName = "Checking stock levels",
                 Completed = false,
                 CategoryId = 2,
             },
             new MyTask
             {
-                TaskName = "Finsh Tasker App",
+                TaskName = "Checking fridge is stocked up",
                 Completed = false,
                 CategoryId = 2,
             },
             new MyTask
             {
-                TaskName = "Complete Weather app gif",
+                TaskName = "Buy more dough",
                 Completed = false,
-                CategoryId = 2,
+                CategoryId = 3,
             },
             new MyTask
             {
-                TaskName = "Buy Steak",
+                TaskName = "Buy more milk",
                 Completed = false,
                 CategoryId = 3,
             }
-        };
+            };
+    
     }
 
     public class TaskAddedEventArgs : EventArgs
