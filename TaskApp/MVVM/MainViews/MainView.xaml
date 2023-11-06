@@ -11,7 +11,7 @@
     </ContentPage.Resources>
 
     <Grid Margin="16" RowDefinitions=".1*,.3*,.7*">
-        <Label Text="My Tasks" StyleClass="dark, Header" TextColor="Black" FontAttributes="Bold"/>
+        <Label Text="Tasker The Task App" StyleClass="dark, Header" TextColor="Black" FontAttributes="Bold"/>
 
         <!-- Categories Section -->
         <ScrollView Grid.Row="1" HorizontalScrollBarVisibility="Always">

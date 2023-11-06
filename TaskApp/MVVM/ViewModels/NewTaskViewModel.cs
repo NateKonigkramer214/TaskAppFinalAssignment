@@ -16,65 +16,74 @@ public class NewTaskViewModel
     {
         Categories = new ObservableCollection<Category>()
         {
-            new Category
-            {
-                Id = 1,
-                CategoryName = "Cleaning",
-                Color = "#ff0000"
-            },
-            new Category
-            {
-                Id = 2,
-                CategoryName = "Work/Uni",
-                Color = "#007BFF"
-            },
-            new Category
-            {
-                Id = 3,
-                CategoryName = "Groceries",
-                Color = "#008000"
-            }
+                new Category
+                {
+                    Id = 1,
+                    CategoryName = "Finance",
+                    Color = "#FFC436"
+                },
+
+                new Category
+                {
+                    Id = 2,
+                    CategoryName = "Inventory Tracking",
+                    Color = "#0174BE"
+                },
+
+                new Category
+                {
+                    Id = 3,
+                    CategoryName = "Shoping",
+                    Color = "#0C356A"
+                }
         };
 
         Tasks = new ObservableCollection<MyTask>()
-        {
-            new MyTask
             {
-                TaskName = "Dishes",
+                new MyTask
+            {
+                TaskName = "Weekly Sales Report",
                 Completed = false,
                 CategoryId = 1,
             },
             new MyTask
             {
-                TaskName = "Vacuum",
+                TaskName = "Taking Money to Bank",
                 Completed = false,
                 CategoryId = 1,
             },
             new MyTask
             {
-                TaskName = "Study for exam",
+                TaskName = "Emptying registers",
+                Completed = false,
+                CategoryId = 1,
+            },
+            new MyTask
+            {
+                TaskName = "Checking stock levels",
                 Completed = false,
                 CategoryId = 2,
             },
             new MyTask
             {
-                TaskName = "Finish Working on UI",
+                TaskName = "Checking fridge is stocked up",
                 Completed = false,
                 CategoryId = 2,
             },
             new MyTask
             {
-                TaskName = "Buy Flour",
+                TaskName = "Buy more dough",
                 Completed = false,
                 CategoryId = 3,
             },
             new MyTask
             {
-                TaskName = "Buy Protein Powder",
+                TaskName = "Buy more milk",
                 Completed = false,
                 CategoryId = 3,
             }
-        };
+            };
+    
     }
 
     public class TaskAddedEventArgs : EventArgs
